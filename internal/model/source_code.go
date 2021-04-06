@@ -17,7 +17,7 @@ type AxMethodContainer struct {
 	Methods []AxMethod `xml:"Method"`
 }
 
-type AxMethod []struct {
+type AxMethod struct {
 	Text   string `xml:",chardata"`
 	Name   string `xml:"Name"`
 	Source string `xml:"Source"`
